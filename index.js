@@ -19,5 +19,11 @@ const Calculator = {
   },
   subtract: function (a, b){
     return a-b
+  },
+  multiply: function (a, b){
+    a*b
+  },
+  divide: function (a, b){
+    
   }
 }
