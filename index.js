@@ -12,3 +12,12 @@ let mondayWork = function(activity='go to the office') {
     return `You are ${flair}${param}${flair}!`
   }
 }
+
+let Calculator = {
+  add: function(a, b) {
+    return a+b
+  },
+  subtract: function (a, b){
+    return a-b
+  }
+}
