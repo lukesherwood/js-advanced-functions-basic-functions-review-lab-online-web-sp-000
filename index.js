@@ -28,7 +28,7 @@ const Calculator = {
   }
 }
 
-let actionApplyer = function(integer, functions) {
+let actionApplyer = function(start, ray) {
   let a = start
 
   for (let i = 0; i < ray.length; i++ ){
