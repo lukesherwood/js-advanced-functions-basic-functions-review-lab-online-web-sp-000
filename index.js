@@ -29,10 +29,11 @@ const Calculator = {
 }
 
 let actionApplyer = function(integer, functions) {
-  if (functions){
-    return integer
+  let a = start
+
+  for (let i = 0; i < ray.length; i++ ){
+    a = ray[i](a)
   }
-  else {
-    return integer functions
-  }
+
+  return a
 }
