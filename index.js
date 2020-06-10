@@ -27,3 +27,12 @@ const Calculator = {
     return a/b
   }
 }
+
+let actionApplyer = function(integer, functions) {
+  if (functions){
+    return integer
+  }
+  else {
+    
+  }
+}
