@@ -33,6 +33,6 @@ let actionApplyer = function(integer, functions) {
     return integer
   }
   else {
-    
+    return integer.functions
   }
 }
