@@ -13,7 +13,7 @@ let mondayWork = function(activity='go to the office') {
   }
 }
 
-let Calculator = {
+const Calculator = {
   add: function(a, b) {
     return a+b
   },
